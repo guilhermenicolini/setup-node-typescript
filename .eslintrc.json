@@ -1,7 +1,9 @@
 {
-  "extends": "standard-with-typescript",
+  "extends": "love",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "rules": { }
+  "rules": {
+    "@typescript-eslint/prefer-promise-reject-errors": "off"
+  }
 }
